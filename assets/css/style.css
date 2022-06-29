@@ -1,0 +1,18 @@
+/* import font here */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* headings and logo */
+
+
+/* navigation and links */
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
