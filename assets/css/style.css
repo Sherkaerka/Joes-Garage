@@ -6,13 +6,59 @@
     border: none;
 }
 
-/* headings and logo */
+body {
 
+}
 
-/* navigation and links */
+/* header and navigation */
+
+#logo {
+    float: left;
+    margin-left: 30px;
+}
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
+
+/* Hero image and Joe-sign overlay */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 800px;
+    background-image: url('../images/logan-meis-7qLT-Msda1k-unsplash.jpg');
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+}
+
+
+    #joe-sign {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(241, 109, 107, .7);
+    background-repeat: no-repeat;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: green;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+  }
+  
+  .column {
+    background-color: yellow; 
+    padding: 1rem; 
+  }
