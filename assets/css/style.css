@@ -13,7 +13,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: aquamarine;
+    background-color: #eaebed;
 }
 
 #company-name {
@@ -45,12 +45,12 @@ header {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid rgb(0, 238, 255);
-    color:rgb(0, 238, 255)
+    border-bottom: 1px solid #98dad9;
+    color:#98dad9
 }
 
 .active{
-    border-bottom: 1px solid rgb(0, 238, 255);
+    border-bottom: 1px solid #98dad9;
 }
 
 /* Add strobe effect to 24 hour service */
@@ -106,3 +106,18 @@ header {
         filter: blur(5px) brightness(1);
     }
 }
+
+/* Find us section with map and details */
+#details {
+    background-color: #eaebed;
+    height: 600px;
+}
+
+#map {
+    float: right;
+}
+
+th {
+    text-align: right;
+}
+
