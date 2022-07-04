@@ -52,3 +52,56 @@ header {
     border-bottom: 1px solid aliceblue;
 }
 
+/* Add strobe effect to 24 hour service */
+#all-day-service {
+    color: rgb(0, 238, 255);
+    font-size: 5rem;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+#all-day-service::before {
+    position: absolute;
+    content: attr(data-text);
+    text-shadow: 0px 0px 20px rgb(0, 238, 255);
+    filter: blur(10px) brightness(0);
+    animation: flicker 2s linear forwards;
+    animation-delay: 1s;
+}
+
+@keyframes flicker {
+    0% {
+        filter: blur(5px) brightness(1);
+    }
+    3% {
+        filter: blur(5px) brightness(0);
+    }
+    6% {
+        filter: blur(5px) brightness(0);
+    }
+    7% {
+        filter: blur(5px) brightness(1);
+    }
+    8% {
+        filter: blur(5px) brightness(0);
+    }
+    9% {
+        filter: blur(5px) brightness(1);
+    }
+    10% {
+        filter: blur(5px) brightness(0);
+    }
+    20% {
+        filter: blur(5px) brightness(1);
+    }
+    50% {
+        filter: blur(5px) brightness(1);
+    }
+    750% {
+        filter: blur(5px) brightness(0);
+    }
+    100% {
+        filter: blur(5px) brightness(1);
+    }
+}
