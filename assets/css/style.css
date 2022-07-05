@@ -121,3 +121,27 @@ th {
     text-align: right;
 }
 
+/* Add style to Services-section */
+#tools {
+    height: 600px;
+    width: 50%;
+    float:left;
+    background-color: blue;
+}
+
+#tools img {
+    width: 100%;
+    height: 600px;
+}
+
+#services {
+    background-color: #eaebed;
+    height: 600px;
+}
+
+/* Add style to footer */
+footer {
+    height: 300px;
+    width:100%;
+    background-color: #2e424d;
+}
