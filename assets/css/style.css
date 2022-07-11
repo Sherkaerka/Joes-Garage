@@ -158,6 +158,18 @@ footer {
 
 @media screen and (max-width: 1200px) {
     
+    #details-map > div {
+        width: 100%;
+        clear: both;
+        height: 300px;
+        padding: 0;
+        float: left;
+    }
+
+    #map {
+        float: left;
+        width: 100%;
+    }
 }
 
 /* for medium size screens 950px and down */
