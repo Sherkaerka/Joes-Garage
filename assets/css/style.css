@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Yellowtail&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #2e424d;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 /* header area */
@@ -19,7 +33,10 @@ header {
 
 #company-name {
     color:aliceblue;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
     font-size: 300%;
+    text-transform: none;
     float: left;
     margin: 30px 0 0 30px;
 }
@@ -57,7 +74,7 @@ header {
 /* Add strobe effect to 24 hour service */
 #all-day-service {
     color: rgb(0, 238, 255);
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     position: relative;
     top: 60%;
@@ -127,6 +144,10 @@ th {
     text-align: right;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Add style to Services-section */
 #tools {
     height: 600px;
@@ -175,7 +196,15 @@ footer {
 /* for medium size screens 950px and down */
 @media screen and (max-width: 950px) {
     
+    #company-name {
+        color:aliceblue;
+        font-size: 200%;
+        float: left;
+        margin: 30px 0 0 30px;
+    }
+
     #menu {
+        font-size: 100%;
         clear: left;
         float: left;
         margin-left: 30px;
@@ -183,6 +212,7 @@ footer {
         line-height: 25px;
     }
 
+    
 }
 
 /* For small screens 800px and smaller */
