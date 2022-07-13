@@ -17,6 +17,7 @@ h1, h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
+    font-size: 250%;
 }
 
 /* header area */
@@ -132,7 +133,8 @@ header {
 }
 
 #details > div {
-    margin-left: 30px;
+    padding-top: 200px;
+    padding-left: 30px;
     bottom: 30px;
 }
 
@@ -142,10 +144,33 @@ header {
 
 th {
     text-align: right;
+    padding-right: 20px;
 }
 
 ul {
     list-style-type: none;
+    padding-bottom: 20px;
+}
+
+button {
+  background-color: #98dad9;
+  border-radius: 100px;
+  box-shadow: rgba(0, 238, 255, .2) 0 -25px 18px -14px inset,rgba(0, 238, 255, .15) 0 1px 2px,rgba(0, 238, 255, .15) 0 2px 4px,rgba(0, 238, 255, .15) 0 4px 8px,rgba(0, 238, 255, .15) 0 8px 16px,rgba(0, 238, 255, .15) 0 16px 32px;
+  color: #2e424d;
+  display: inline-block;
+  font-family: inherit;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(0, 238, 255,.35) 0 -25px 18px -14px inset,rgba(0, 238, 255,.25) 0 1px 2px,rgba(0, 238, 255,.25) 0 2px 4px,rgba(0, 238, 255,.25) 0 4px 8px,rgba(0, 238, 255,.25) 0 8px 16px,rgba(0, 238, 255,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }
 
 /* Add style to Services-section */
