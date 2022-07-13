@@ -80,7 +80,6 @@ header {
     border-bottom: 1px solid #98dad9;
 }
 
-/* Add strobe effect to 24 hour service */
 #all-day-service {
     color: rgb(0, 238, 255);
     font-size: 4vw;
@@ -89,6 +88,24 @@ header {
     top: 60%;
     text-shadow: 0px 0px 20px rgb(0, 238, 255);
 }
+
+/*Quote section*/
+#quote {
+    height: auto;
+    font-size: 200%;
+    font-weight: 500;
+    padding: 90px;
+    clear: left;
+}
+
+#joe {
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    font-size: 150%;
+    float: right;
+    padding-right: 85px;
+}
+
 
 /* Find us section with map and details */
 #details {
