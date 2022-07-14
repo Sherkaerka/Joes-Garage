@@ -208,11 +208,46 @@ button:hover {
 }
 
 /* Add style to footer */
+
 footer {
     height: 300px;
     width:100%;
     background-color: #2e424d;
+    color: #eaebed;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+.column > h3 {
+    padding-top: 50px;
+}
+ 
+.column a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#social > li {
+    color: #eaebed;
+    font-size: 200%;
+    display: inline;
+    letter-spacing: 10px;
+}
+
+#copy {
+    text-align: center;
+    padding-top: 90px;
+  }
+
 
 /* media queries */
 
@@ -286,6 +321,18 @@ footer {
         top: 40%;
     }
 
+    .column {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        text-align: center;
+    }
+
+    footer h1 {
+        text-align: center;
+    }
 }
 
 /* For small screens 800px and smaller */
