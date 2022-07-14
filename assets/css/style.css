@@ -244,6 +244,20 @@ footer {
         clear: left;
         height: auto;
     }
+
+    #customer {
+        clear: both;
+        width: 100%;
+        padding: 30px;
+    }
+
+    #customer-quotes > div {
+        clear: left;
+        width: 100%;
+        padding: 30px;
+        height: auto;
+    }
+
 }
 
 /* for medium size screens 950px and down */
