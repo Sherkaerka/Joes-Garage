@@ -119,6 +119,10 @@ header {
     bottom: 30px;
 }
 
+#details h3 {
+    padding-top: 30px;
+}
+
 #map {
     float: right;
 }
