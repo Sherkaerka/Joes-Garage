@@ -39,6 +39,16 @@ header {
     background-color: #eaebed;
 }
 
+.sub-page-header {
+    height: 50vh;
+    background-image: url('../images/logan-meis-7qLT-Msda1k-unsplash.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #eaebed;
+}
+
 #company-name {
     color:aliceblue;
     font-family: 'Yellowtail', cursive;
