@@ -270,7 +270,7 @@ footer {
 
 /* Add style to Contact page*/
 #form {
-    height: 600px;
+    height: auto;
     width: 100%;
 }
 
@@ -289,7 +289,7 @@ input[type=text], input[type=email], select, textarea {
   .container {
     padding: 30px;
     width: 50%;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
   }
 
@@ -338,6 +338,9 @@ input[type=text], input[type=email], select, textarea {
         height: auto;
     }
 
+    .container {
+        width: 100%;
+    }
 }
 
 /* for medium size screens 950px and down */
