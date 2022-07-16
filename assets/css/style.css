@@ -134,6 +134,8 @@ header {
 }
 
 #map {
+    height: 600px;
+    width: 50%;
     float: right;
 }
 
@@ -151,7 +153,6 @@ button {
   background-color: #98dad9;
   border-radius: 100px;
   box-shadow: rgba(0, 238, 255, .2) 0 -25px 18px -14px inset,rgba(0, 238, 255, .15) 0 1px 2px,rgba(0, 238, 255, .15) 0 2px 4px,rgba(0, 238, 255, .15) 0 4px 8px,rgba(0, 238, 255, .15) 0 8px 16px,rgba(0, 238, 255, .15) 0 16px 32px;
-  color: #2e424d;
   display: inline-block;
   font-family: inherit;
   padding: 7px 20px;
@@ -162,6 +163,11 @@ button {
   font-size: 16px;
   touch-action: manipulation;
   margin-left: 200px;
+}
+
+button > a {
+    text-decoration: none;
+    color: #2e424d;
 }
 
 button:hover {
