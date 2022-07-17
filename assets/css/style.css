@@ -209,7 +209,7 @@ button:hover, input[type=submit]:hover {
 #customer {
     height: 600px;
     text-align: center;
-    padding: 200px 100px;
+    padding: 100px 100px;
 }
 
 #customer-quotes > div {
