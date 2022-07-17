@@ -269,8 +269,18 @@ footer {
   }
 
 /*Add style to Service page*/
+
 #diy {
     height: 600px;
+}
+
+#instructions {
+    height: 600px;
+    background-color: #eaebed;
+}
+
+#oil {
+    float: right;
 }
 
 /* Add style to Contact page*/
