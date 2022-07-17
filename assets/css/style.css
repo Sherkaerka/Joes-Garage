@@ -100,7 +100,7 @@ header {
 }
 
 /*Quote section*/
-#quote {
+.quote {
     height: auto;
     font-size: 200%;
     font-weight: 500;
@@ -190,14 +190,14 @@ button:hover, input[type=submit]:hover {
     margin-top: 0.25em;
  }
 
-#services {
+.services {
     background-color: #eaebed;
     height: 600px;
     padding-top: 30px;
     padding-right: 30px;
 }
 
-#services > h4 {
+.services > h4 {
     padding-top: 20px;
     padding-bottom: 50px;
     text-align: right;
@@ -267,6 +267,11 @@ footer {
     text-align: center;
     padding-top: 90px;
   }
+
+/*Add style to Service page*/
+#diy {
+    height: 600px;
+}
 
 /* Add style to Contact page*/
 #form {
