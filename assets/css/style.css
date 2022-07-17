@@ -199,7 +199,7 @@ button:hover, input[type=submit]:hover {
 
 .services > h4 {
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     text-align: right;
     text-shadow: 0 0 5px #98dad9, 0 0 10px #98dad9, 0 0 15px #98dad9, 0 0 20px #98dad9, 0 0 30px #98dad9, 0 0 40px #98dad9, 0 0 55px #98dad9, 0 0 75px #98dad9;
 }
@@ -277,6 +277,18 @@ footer {
 #instructions {
     height: 600px;
     background-color: #eaebed;
+    padding: 30px;
+}
+
+#instructions > h2, h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#instructions iframe {
+    border: 3px solid #98dad9;
+    border-radius: 4px;
+    padding: 2px;
 }
 
 #oil {
@@ -328,16 +340,18 @@ input[type=text], input[type=email], select, textarea {
         width: 100%;
     }
     
-    #tools {
+    .tools {
         clear: right;
         height:auto;
         width: 100%;
         padding: 30px;
     }
 
-    #services {
+    .services {
+        width: 100%;
         clear: left;
         height: auto;
+        padding: 10px;
     }
 
     #customer {
@@ -351,6 +365,24 @@ input[type=text], input[type=email], select, textarea {
         width: 100%;
         padding: 30px;
         height: auto;
+    }
+
+    #instructions, #oil, #brakes {
+        clear: left;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    #instructions > h2 {
+        clear: left;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
     }
 
     .container {
