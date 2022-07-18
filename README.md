@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Joe's Garage logo](./assets/images/logodump.png)
 
 **Welcome to Joe's Garage,**
 
@@ -6,19 +6,45 @@ Joe's Garage is a basic business website for a local garage. They provide basic 
 
 The intended audience is anyone with a car, but of course the theme can easily be changed.
 
-Live site can be visited at: **https://sherkaerka.github.io/Joes-Garage**
+Live site can be visited at: [Joe's Garage website](https://sherkaerka.github.io/Joes-Garage "Joe's Garage")
+<br>
+<br>
 
 ## Languages
 
 Joe's Garage is created with *HTML5* and *CSS3*.
-
+<br>
+<br>
 
 ## Release History
 
+Joe's Garage was developed as Milestone Project no1 for [Code Institute](https://codeinstitute.net "Code Institute").
+
+*2022-07-04* Initial Commit
+
+<br>
+<br>
 
 ## Future development
 
+Some possible improvements but not limited to:
+
+* Chatbot
+* Webshop for DIY-kits and merch
+* Online booking system
+<br>
+<br>
+
+## Credits
+
+Hero Image photographer Logan Meis, via [Unsplash](Unsplash.com "Unsplash"). 
+
+Youtube instruction-videos has nothing to do with Joe's Garage but are exemples of how videos could be embedded on the site.
+
+<br>
 ------
+<br>
+
 ## MIT License
 
 Copyright <2022> <Erik Lindén>
@@ -29,7 +55,8 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+<br>
 ------
-
+<br>
 With love,
 Erik Lindén
