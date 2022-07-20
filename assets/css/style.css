@@ -256,6 +256,7 @@ footer {
 }
 
 /* Add style to Contact page*/
+
 /* Find us section with map and details */
 #details {
     background-color: #eaebed;
@@ -322,17 +323,27 @@ button:hover, input[type=submit]:hover {
 
 
 /* Add style to Contact form*/
-input[type=text], input[type=email], select, textarea {
+input[type=text], input[type=email], select {
     width: 100%;
     padding: 12px;
-    border: 1px solid #2e424d;
-    border-radius: 4px;
+    border-bottom: 2px solid #98dad9;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
   }
   
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #98dad9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
   .container {
     padding: 30px;
     width: 50%;
@@ -340,6 +351,9 @@ input[type=text], input[type=email], select, textarea {
     margin: 0 auto;
   }
 
+  #confirm {
+    text-align: center;
+  }
 
 /* media queries */
 
