@@ -116,70 +116,30 @@ header {
     padding-right: 85px;
 }
 
-
-/* Find us section with map and details */
-#details {
-    background-color: #eaebed;
-    height: 600px;
-    width: 50%;
-}
-
-#details > div {
-    padding: 30px 30px;
-    bottom: 30px;
-}
-
-#details h3 {
-    padding-top: 30px;
-}
-
-#map {
+/*Add style to About section*/
+#about {
     height: 600px;
     width: 50%;
     float: right;
+    background-color: rgba(91, 130, 145, 0.4);
+    text-align: center;
+    padding-top: 200px;
+    margin-left: 30px;
 }
 
-th {
-    text-align: right;
-    padding-right: 20px;
+#intro {
+    padding-left: 30px;
 }
 
-ul {
-    list-style-type: none;
-    padding-bottom: 20px;
-}
-
-button, input[type=submit] {
-  background-color: #98dad9;
-  border-radius: 100px;
-  box-shadow: rgba(0, 238, 255, .2) 0 -25px 18px -14px inset,rgba(0, 238, 255, .15) 0 1px 2px,rgba(0, 238, 255, .15) 0 2px 4px,rgba(0, 238, 255, .15) 0 4px 8px,rgba(0, 238, 255, .15) 0 8px 16px,rgba(0, 238, 255, .15) 0 16px 32px;
-  display: inline-block;
-  font-family: inherit;
-  padding: 7px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 0;
-  font-size: 16px;
-  touch-action: manipulation;
-  margin-left: 200px;
-}
-
-button > a, input[type=submit] {
-    text-decoration: none;
-    color: #2e424d;
-}
-
-button:hover, input[type=submit]:hover {
-  box-shadow: rgba(0, 238, 255,.35) 0 -25px 18px -14px inset,rgba(0, 238, 255,.25) 0 1px 2px,rgba(0, 238, 255,.25) 0 2px 4px,rgba(0, 238, 255,.25) 0 4px 8px,rgba(0, 238, 255,.25) 0 8px 16px,rgba(0, 238, 255,.25) 0 16px 32px;
-  transform: scale(1.05) rotate(-1deg);
+#intro > h3 {
+    padding-top: 50px;
 }
 
 /* Add style to Services-section */
 .tools {
     height: 600px;
     width: 50%;
-    float:left;
+    float: left;
     background-color: rgba(91, 130, 145, 0.4);
     text-align: center;
     padding-top: 200px;
@@ -296,10 +256,70 @@ footer {
 }
 
 /* Add style to Contact page*/
+/* Find us section with map and details */
+#details {
+    background-color: #eaebed;
+    height: 600px;
+    width: 50%;
+}
+
+#details > div {
+    padding: 30px 30px;
+    bottom: 30px;
+}
+
+#details h3 {
+    padding-top: 30px;
+}
+
+#map {
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+
+th {
+    text-align: right;
+    padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+button, input[type=submit] {
+  background-color: #98dad9;
+  border-radius: 100px;
+  box-shadow: rgba(0, 238, 255, .2) 0 -25px 18px -14px inset,rgba(0, 238, 255, .15) 0 1px 2px,rgba(0, 238, 255, .15) 0 2px 4px,rgba(0, 238, 255, .15) 0 4px 8px,rgba(0, 238, 255, .15) 0 8px 16px,rgba(0, 238, 255, .15) 0 16px 32px;
+  display: inline-block;
+  font-family: inherit;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  touch-action: manipulation;
+  margin-left: 200px;
+}
+
+button > a, input[type=submit] {
+    text-decoration: none;
+    color: #2e424d;
+}
+
+button:hover, input[type=submit]:hover {
+  box-shadow: rgba(0, 238, 255,.35) 0 -25px 18px -14px inset,rgba(0, 238, 255,.25) 0 1px 2px,rgba(0, 238, 255,.25) 0 2px 4px,rgba(0, 238, 255,.25) 0 4px 8px,rgba(0, 238, 255,.25) 0 8px 16px,rgba(0, 238, 255,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
 #form {
     height: auto;
     width: 100%;
 }
+
 
 /* Add style to Contact form*/
 input[type=text], input[type=email], select, textarea {
