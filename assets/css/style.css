@@ -516,6 +516,7 @@ input[type=text], input[type=email], select {
         padding: 10px;
     }
 
+    /*Joes DIY*/
 
     #instructions, #oil, #brakes {
         clear: left;
@@ -535,29 +536,39 @@ input[type=text], input[type=email], select {
         width: 100%;
     }
 
+    /*Contact page*/
     #map {
         float: left;
         width: 100%;
     }
 
-    .container {
+    #details {
         width: 100%;
-    }
-
-    .column {
-        width: 100%;
-    }
-
-    footer {
+        clear: both;
         height: auto;
-        text-align: center;
+        padding-left: 30%;
     }
 
-    footer h1 {
-        text-align: center;
+    .container {
+        width: 75%;
     }
+
 }
 
 /* For small screens 800px and smaller */
 @media screens and (max-width: 800px) {
+        /*Footer*/
+    
+        .column {
+            width: 100%;
+        }
+    
+        footer {
+            height: auto;
+            text-align: center;
+        }
+    
+        footer h1 {
+            text-align: center;
+        }
 }
