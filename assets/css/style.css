@@ -361,45 +361,31 @@ input[type=text], input[type=email], select {
 /* for larger to medium screens from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    
-    #about-joe > div {
-        width: 100%;
-        clear: both;
-        height: auto;
-        padding: 10px;
-        float: left;
-    }
 
-    #map {
-        float: left;
-        width: 100%;
-    }
-    
+    /*Home page*/
     .tools {
-        clear: right;
-        height:auto;
-        width: 100%;
-        padding: 10px;
+        width: 25%;
+        height: 550px;
+        margin: 0;
     }
     
     .services {
-        width: 100%;
-        clear: left;
-        height: auto;
+        width: 75%;
+        height: 550px;
         padding: 10px;
+        float: right;
+        border-top: 2px solid rgba(91, 130, 145, 0.4);
     }
 
     #about {
-        width: 100%;
-        clear: left;
-        height: auto;
-        padding: 10px;
+        width: 25%;
+        padding-top: 120px;
+        height: 450px;
     }
 
     #intro {
-        width: 100%;
-        clear: left;
-        height: auto;
+        width: 75%;
+        height: 450px;
         padding: 10px;
     }
 
@@ -407,15 +393,26 @@ input[type=text], input[type=email], select {
         clear: both;
         width: 100%;
         padding: 30px;
+        height: 400px;
     }
 
     #customer-quotes > div {
         clear: left;
         width: 100%;
-        padding: 30px;
+        padding: 20px;
         height: auto;
     }
 
+    #customer-quotes p {
+        float: none;
+        text-align: center;
+    }
+
+    /* Joe's DIY*/
+    
+    #diy {
+        height: 550px;
+    }
     #instructions, #oil, #brakes {
         clear: left;
         width: 100%;
@@ -431,17 +428,14 @@ input[type=text], input[type=email], select {
     }
 
     iframe {
-        width: 100%;
-    }
-
-    .container {
-        width: 100%;
+        width: 50%;
     }
 }
 
 /* for medium size screens 950px and down */
 @media screen and (max-width: 950px) {
     
+    /*Home page and sub-page-headers*/
     header {
         height: 100vh;
         background-image: url('../images/claude-gabriel-p3vvMhj_qjU-unsplash.jpg');
@@ -480,10 +474,74 @@ input[type=text], input[type=email], select {
 
     #all-day-service {
         text-align: center;
-        margin-left: 30px;
         clear: left;
         top: 50%;
-        font-size: 7vw;
+        font-size: 6vw;
+        background-color: rgba(91, 130, 145, 0.7);
+    }
+
+    .quote {
+        padding: 30px;
+    }
+
+    #intro > h3 {
+        padding-top: 10px;
+    }
+    
+    .tools {
+        clear: right;
+        height:auto;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .services {
+        width: 100%;
+        clear: left;
+        height: auto;
+        padding: 10px;
+    }
+
+    #about {
+        width: 100%;
+        clear: left;
+        height: auto;
+        padding: 10px;
+    }
+
+    #intro {
+        width: 100%;
+        clear: left;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    #instructions, #oil, #brakes {
+        clear: left;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    #instructions > h2 {
+        clear: left;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #map {
+        float: left;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
     }
 
     .column {
@@ -502,3 +560,4 @@ input[type=text], input[type=email], select {
 
 /* For small screens 800px and smaller */
 @media screens and (max-width: 800px) {
+}
