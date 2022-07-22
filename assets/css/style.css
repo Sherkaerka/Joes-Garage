@@ -170,7 +170,7 @@ header {
 #customer {
     height: 600px;
     text-align: center;
-    padding: 100px 100px;
+    padding: 30px 30px;
 }
 
 #customer-quotes > div {
@@ -392,14 +392,18 @@ input[type=text], input[type=email], select {
     #customer {
         clear: both;
         width: 100%;
-        padding: 30px;
+        padding: 0;
         height: 400px;
+    }
+
+    #statement {
+        padding: 10px;
     }
 
     #customer-quotes > div {
         clear: left;
         width: 100%;
-        padding: 20px;
+        padding: 10px;
         height: auto;
     }
 
@@ -552,23 +556,62 @@ input[type=text], input[type=email], select {
     .container {
         width: 75%;
     }
+     
+    /*Footer*/
+    
+     .column {
+        width: 100%;
+    }
 
+    #column-3, #column-2 {
+        width: 50%
+    }
+
+    #column-2 {
+        padding-left: 30px;
+    }
+
+    footer {
+        height: auto;
+        text-align: left;
+    }
+
+    footer h1 {
+        text-align: left;
+    }
+
+    #copy {
+        padding-top: 0;
+    }
 }
 
 /* For small screens 800px and smaller */
 @media screens and (max-width: 800px) {
-        /*Footer*/
     
-        .column {
-            width: 100%;
-        }
+
+    #confirm {
+          
+    }
+
     
-        footer {
-            height: auto;
-            text-align: center;
-        }
-    
-        footer h1 {
-            text-align: center;
-        }
+
+
+}
+
+/* For small screens 650px and smaller */
+@media screens and (max-width: 650px) {
+
+
+    /*Footer*/
+
+    #column-3, #column-2 {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+}
+
+/* For small screens 400px and smaller */
+@media screens and (max-width: 400px) {
+
 }
