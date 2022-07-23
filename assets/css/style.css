@@ -394,6 +394,7 @@ input[type=text], input[type=email], select {
         width: 100%;
         padding: 0;
         height: 400px;
+        overflow: scroll;
     }
 
     #statement {
@@ -550,7 +551,7 @@ input[type=text], input[type=email], select {
         width: 100%;
         clear: both;
         height: auto;
-        padding-left: 30%;
+        padding-left: 20%;
     }
 
     .container {
@@ -563,12 +564,20 @@ input[type=text], input[type=email], select {
         width: 100%;
     }
 
+    .column > h3 {
+        padding-top: 10px;
+    }
+
     #column-3, #column-2 {
-        width: 50%
+        width: 50%;
     }
 
     #column-2 {
         padding-left: 30px;
+    }
+
+    #column-3 {
+        padding-left: 10px;
     }
 
     footer {
@@ -585,33 +594,12 @@ input[type=text], input[type=email], select {
     }
 }
 
-/* For small screens 800px and smaller */
-@media screens and (max-width: 800px) {
-    
-
-    #confirm {
-          
-    }
-
-    
-
-
-}
 
 /* For small screens 650px and smaller */
 @media screens and (max-width: 650px) {
-
-
-    /*Footer*/
-
-    #column-3, #column-2 {
-        width: 100%;
-        padding-left: 30px;
+    
+    /*Contact page*/
+    #details {
+        padding-left: 10%;  
     }
-
-}
-
-/* For small screens 400px and smaller */
-@media screens and (max-width: 400px) {
-
 }
