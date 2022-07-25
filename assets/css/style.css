@@ -593,13 +593,3 @@ input[type=text], input[type=email], select {
         padding-top: 0;
     }
 }
-
-
-/* For small screens 650px and smaller */
-@media screens and (max-width: 650px) {
-    
-    /*Contact page*/
-    #details {
-        padding-left: 10%;  
-    }
-}
