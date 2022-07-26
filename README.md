@@ -41,6 +41,9 @@ Live site can be visited at: [Joe's Garage website](https://sherkaerka.github.io
     * [Future Features](#future-features-a-namefuturefeaturesa)
 * [Technologies Used](#technologies-used-a-nametechuseda)
 * [Testing](#testing-a-nametestinga)
+* [Deployment](#deployment-a-namedeploymenta)
+    * [How to fork the repository on Github](#how-to-fork-the-repository-on-github-a-nameforka)
+    * [How to create a local clone](#how-to-create-a-local-clone-a-namelocalclonea)
 
 ## User Experience <a name="user-experience"></a>
 
@@ -195,28 +198,76 @@ Some possible improvements but not limited to:
 
 ## Technologies Used <a name="techused"></a>
 
-HTML5 - provides the content and structure for the website.
-CSS3 - provides the styling.
-Balsamiq - used to create the wireframes.
-Gitpod - used to deploy the website.
-Github - used to host and edit the website.
+* HTML5 - provides the content and structure for the website.
+* CSS3 - provides the styling.
+* Balsamiq - used to create the wireframes.
+* Gitpod - used to deploy the website.
+* Github - used to host and edit the website.
 
 [Back to top](#table-of-contents)
 
 ## Testing <a name="testing"></a>
 
-Please refer to[testing protocol]() for more information on testing Joe's Garage.
+Please refer to [testing protocol](./TESTING.md) for more information on testing Joe's Garage.
 
 [Back to top](#table-of-contents)
 
-## Deployment
+## Deployment <a name="deployment"></a>
 
-## Credits
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
 
-### Content
+1. In the GitHub repository, navigate to the **Settings** tab.
+2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+3. Under **Source**, select the branch to **master**, then click **save**.
+4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-### Media
+![Deploy](./assets/readme-images/deploy.png)
 
-## Acknowledgements
+This is the link to the live Github repository: https://github.com/Sherkaerka/Joes-Garage
 
-Joe's Garage was developed as Milestone Project no1 for [Code Institute](https://codeinstitute.net "Code Institute").
+### How to fork the repository on Github <a name="fork"></a>
+
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+
+1. Log in to GitHub and locate the [repository](https://github.com/Sherkaerka/Joes-Garage).
+2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
+
+![How to fork on Github](./assets/readme-images/fork.png)
+
+### How to create a local clone <a name="localclone"></a>
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab.
+2. In the Clone with HTTPS section, click on the **copy icon** to copy the given URL.
+
+![How to clone in Github](./assets/readme-images/clone.png)
+
+[Back to top](#table-of-contents)
+
+## Credits <a name="credits"></a>
+
+### Content <a name="content"></a>
+The font came from Google Fonts.
+Fonts were choosen with [Canva](http://www.canva.com)
+The map is embedded from Google Maps.
+The Slate colour palate was compiled by ui.ux.palette.
+The icons came from Font Awesome.
+Balsamiq was used to create the wireframes.
+
+### Media <a name="media"></a>
+Large/medium screen hero image by Logan Meis via Unsplash.
+Small screen hero image by Claude Gabriel via Unsplash
+Youtube video Brakes Service by Eric The Car Guy
+Youtube video Oil Service by Chris Fix
+
+[Back to top](#table-of-contents)
+
+## Acknowledgements <a name="deployment"></a>
+
+Joe's Garage is a non-profit no money involved site that was developed as Milestone Project no1 for [Code Institute](https://codeinstitute.net "Code Institute"). Joe's Garage do not exist.
+
+Thanks to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for unvaluable guidance and tips.
+
+Erik Lindén 2022
+
+[Back to top](#table-of-contents)
