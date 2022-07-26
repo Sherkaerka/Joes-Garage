@@ -49,7 +49,7 @@ header {
     background-color: #eaebed;
 }
 
-#company-name {
+.company-name {
     color:aliceblue;
     font-family: 'Yellowtail', cursive;
     font-weight: 400;
@@ -461,7 +461,7 @@ input[type=text], input[type=email], select {
         background-color: #eaebed;
     }
 
-    #company-name {
+    .company-name {
         color:aliceblue;
         font-size: 200%;
         float: left;

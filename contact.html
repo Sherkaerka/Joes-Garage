@@ -14,7 +14,7 @@
     <!--Header-->
     <header class="sub-page-header">
         <!--Logo-->
-        <h1 id="company-name">Joe's Garage</h1>
+        <h1 class="company-name">Joe's Garage</h1>
         <!--Navigation-->
         <nav>
             <ul id="menu" aria-label="main">
@@ -32,14 +32,12 @@
     </header>
 
     <!--Quote section-->
-    <section class="quote">
-        <p>
-            <q>We'll always get back to you within one working day!</q>
-            <br>
-            <p id="joe">Joe</p>
-        </p>
-    </section>
-
+    <div class="quote">
+        <q>We'll always get back to you within one working day!</q>
+        <br>
+        <p id="joe">Joe</p>
+    </div>
+    
     <!--Google map and contact details-->
     <section id="details-map">
         <!--Map-->
@@ -67,40 +65,38 @@
     </section>
 
     <!--Contact form-->
-    <section id="form">
-        <div class="container">
-            <form action="confirmation.html">
+    <div class="container" id="form">
+        <form action="confirmation.html">
           
-              <label for="fname">Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
           
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Your email adress.." required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email adress.." required>
           
-              <label for="service">Service</label>
-              <select id="service" name="service" required>
+            <label for="service">Service</label>
+            <select id="service" name="service" multiple required>
                 <option value="oil">Oil Service</option>
                 <option value="brakes">Brakes Service</option>
                 <option value="wheel">Wheel Alignment</option>
                 <option value="diy">DIY</option>
                 <option value="other">Other</option>
-              </select>
+            </select>
           
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
           
-              <input type="submit" value="Send">
+            <input type="submit" value="Send">
           
-            </form>
-          </div>
-    </section>
-    
+        </form>
+    </div>
+        
     <!--Footer-->
     <footer>
         <div class="footer">
             <!--Logo-->
             <div class="column">
-                <h1 id="company-name">Joe's Garage</h1>
+                <h1 class="company-name">Joe's Garage</h1>
             </div>
             <!--Useful links-->
             <div class="column" id="column-2">
@@ -122,13 +118,13 @@
                 <h3>Follow Us</h3>
                 <ul id="social">
                     <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
                     </li>
                     <li>
-                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></i></a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
                     </li>
                     <li>
-                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
                     </li>
                 </ul>
             </div>
