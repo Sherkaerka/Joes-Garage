@@ -28,3 +28,15 @@ The HTML validator results for each page are below:
 The CSS validator results are below:
 
 ![Css validation](./assets/readme-images/css%20validation.png)
+
+# Resposiveness test
+
+# Browser compatibillity
+
+# User stories testing
+
+# Known bugs
+
+# Additional testing
+
+Back to [README.md](./README.md).
