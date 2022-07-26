@@ -591,5 +591,6 @@ input[type=text], input[type=email], select {
 
     #copy {
         padding-top: 0;
+        padding-bottom: 10px;
     }
 }
