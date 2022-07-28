@@ -236,7 +236,7 @@ footer {
 }
 
 #instructions {
-    height: 600px;
+    height: auto;
     background-color: #eaebed;
     padding: 30px;
 }
@@ -251,9 +251,23 @@ footer {
     border-radius: 4px;
     padding: 2px;
 }
-
+/*
 #oil {
     float: right;
+}
+*/
+#oil, #brakes {
+    padding-top: 56.25%;
+    height: 0px;
+    position: relative;
+}
+
+.video {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* Add style to Contact page*/
@@ -412,6 +426,7 @@ input[type=text], input[type=email], select {
     #diy {
         height: 550px;
     }
+    /*
     #instructions, #oil, #brakes {
         clear: left;
         width: 100%;
@@ -425,10 +440,7 @@ input[type=text], input[type=email], select {
         padding: 10px;
         height: auto;
     }
-
-    iframe {
-        width: 50%;
-    }
+    */
 }
 
 /* for medium size screens 950px and down */
@@ -516,7 +528,7 @@ input[type=text], input[type=email], select {
     }
 
     /*Joes DIY*/
-
+/*
     #instructions, #oil, #brakes {
         clear: left;
         width: 100%;
@@ -534,7 +546,7 @@ input[type=text], input[type=email], select {
     iframe {
         width: 100%;
     }
-
+*/
     /*Contact page*/
 
     #map {

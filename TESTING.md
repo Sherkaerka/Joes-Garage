@@ -4,7 +4,7 @@
 
 The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-Minor issues and solutions:
+### Known bugs, minor issues and solutions:
 
 * Id duplicate on Company name: changed to class.
 * Stray end: removed.
@@ -41,16 +41,16 @@ Screen dimentions tested:
 * Nest Hub
 * Galaxy S8+
 
-Parameters checked:
+Parameters checked and passed:
 * Render
 * Images
 * Links
 
 # Browser compatibillity
+Joe's Garage site was tested on the following browsers with no visible issues for the user. Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
 # User stories testing
 
-# Known bugs
 
 # Additional testing
 
