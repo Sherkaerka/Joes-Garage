@@ -32,7 +32,19 @@ The CSS validator results are below:
 # Resposiveness test
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://responsivedesignchecker.com/).
 
+Screen dimentions tested:
+* >1200px
+* <1200px
+* Ipad Air
+* Iphone SE
+* Suface Pro 7
+* Nest Hub
+* Galaxy S8+
 
+Parameters checked:
+* Render
+* Images
+* Links
 
 # Browser compatibillity
 
