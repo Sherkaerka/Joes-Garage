@@ -30,6 +30,9 @@ The CSS validator results are below:
 ![Css validation](./assets/readme-images/css%20validation.png)
 
 # Resposiveness test
+The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://responsivedesignchecker.com/).
+
+
 
 # Browser compatibillity
 

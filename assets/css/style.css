@@ -317,12 +317,6 @@ button:hover, input[type=submit]:hover {
 }
 
 
-#form {
-    height: auto;
-    width: 50%;
-}
-
-
 /* Add style to Contact form*/
 input[type=text], input[type=email], select {
     width: 100%;
@@ -542,6 +536,7 @@ input[type=text], input[type=email], select {
     }
 
     /*Contact page*/
+
     #map {
         float: left;
         width: 100%;
@@ -555,7 +550,9 @@ input[type=text], input[type=email], select {
     }
 
     .container {
-        width: 75%;
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
     }
      
     /*Footer*/
