@@ -251,11 +251,7 @@ footer {
     border-radius: 4px;
     padding: 2px;
 }
-/*
-#oil {
-    float: right;
-}
-*/
+
 #oil, #brakes {
     padding-top: 56.25%;
     height: 0px;
@@ -263,8 +259,8 @@ footer {
 }
 
 .video {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     position: absolute;
     top: 0;
     left: 0;
