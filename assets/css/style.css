@@ -426,21 +426,6 @@ input[type=text], input[type=email], select {
     #diy {
         height: 550px;
     }
-    /*
-    #instructions, #oil, #brakes {
-        clear: left;
-        width: 100%;
-        padding: 10px;
-        height: auto;
-    }
-
-    #instructions > h2 {
-        clear: left;
-        width: 100%;
-        padding: 10px;
-        height: auto;
-    }
-    */
 }
 
 /* for medium size screens 950px and down */
@@ -527,26 +512,6 @@ input[type=text], input[type=email], select {
         padding: 10px;
     }
 
-    /*Joes DIY*/
-/*
-    #instructions, #oil, #brakes {
-        clear: left;
-        width: 100%;
-        padding: 10px;
-        height: auto;
-    }
-
-    #instructions > h2 {
-        clear: left;
-        width: 100%;
-        padding: 10px;
-        height: auto;
-    }
-
-    iframe {
-        width: 100%;
-    }
-*/
     /*Contact page*/
 
     #map {
