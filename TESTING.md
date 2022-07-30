@@ -4,13 +4,6 @@
 
 The Wawas Woods site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-### Known bugs, minor issues and solutions:
-
-* Id duplicate on Company name: changed to class.
-* Stray end: removed.
-* Obsolete inline styling on youtube videos: removed.
-
-
 The HTML validator results for each page are below:
 
 * Home
@@ -71,6 +64,13 @@ Joe's Garage site was tested on the following browsers with no visible issues fo
 * As a user I want to connect with Joe's Garage on social media and become a part of their community.
     * In the footer the social icons will guide you.
     * Also the instruction videos are thought to further encourage social connections.
+
+### Known bugs, minor issues and solutions:
+
+During validation these three main bugs occured:
+* **Id duplicate on Company name**: This was due to id was used and I reused that id in the footer. Solution was to add it to class.
+* **Stray ends**: I unfortunately created this stray end very early on so it was copied via the header to all pages. These were removed.
+* **Inline styling on youtube videos**: I did not think of this when embedding the videos and everything worked fine, allthough I had the size-settings in the service.html. When removed I got a bit surprised how it acted until I found out that I had to have an extra div and give that parameters to maintain original proportions.
 
 # Additional testing
 
