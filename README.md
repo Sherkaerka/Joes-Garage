@@ -44,6 +44,10 @@ Live site can be visited at: [Joe's Garage website](https://sherkaerka.github.io
 * [Deployment](#deployment-a-namedeploymenta)
     * [How to fork the repository on Github](#how-to-fork-the-repository-on-github-a-nameforka)
     * [How to create a local clone](#how-to-create-a-local-clone-a-namelocalclonea)
+* [Credits](#credits-a-namecreditsa)
+    * [Content](#content-a-namecontenta)
+    * [Media](#media-a-namemediaa)
+* [Acknowledgements](#acknowledgements-a-nameacknowledgementsa)
 
 ## User Experience <a name="user-experience"></a>
 
@@ -247,22 +251,22 @@ The method from cloning a project from GitHub is below:
 ## Credits <a name="credits"></a>
 
 ### Content <a name="content"></a>
-The font came from Google Fonts.
+The font came from [Google Fonts](https://fonts.google.com/about).
 Fonts were choosen with [Canva](http://www.canva.com)
-The map is embedded from Google Maps.
-The Slate colour palate was compiled by ui.ux.palette.
-The icons came from Font Awesome.
-Balsamiq was used to create the wireframes.
+The map is embedded from [Google Maps](https://www.google.com/maps/?hl=sv).
+The Slate colour palate was compiled by [UI/UX Colour Palette](https://www.instagram.com/ui.ux.palette/).
+The icons came from [Font Awesome](https://fontawesome.com/).
+[Balsamiq](https://balsamiq.com/) was used to create the wireframes.
 
 ### Media <a name="media"></a>
-Large/medium screen hero image by Logan Meis via Unsplash.
-Small screen hero image by Claude Gabriel via Unsplash
-Youtube video Brakes Service by Eric The Car Guy
-Youtube video Oil Service by Chris Fix
+Large/medium screen hero image by Logan Meis via [Unsplash](https://unsplash.com/).
+Small screen hero image by Claude Gabriel via [Unsplash](https://unsplash.com/).
+[Youtube](https://www.youtube.com/) video Brakes Service by [Eric The Car Guy](https://www.youtube.com/c/ericthecarguy)
+[Youtube](https://www.youtube.com/) video Oil Service by [Chris Fix](https://www.youtube.com/c/chrisfix)
 
 [Back to top](#table-of-contents)
 
-## Acknowledgements <a name="deployment"></a>
+## Acknowledgements <a name="acknowledgements"></a>
 
 Joe's Garage is a non-profit no money involved site that was developed as Milestone Project no1 for [Code Institute](https://codeinstitute.net "Code Institute"). Joe's Garage do not exist.
 
